@@ -24,18 +24,21 @@ Available configuration is as follows:
     <td>
       What fields to obfuscate. By default, it's just `id`, so if you have changed the `primaryKey` value or would like to obfuscate related model records, you'll need to pass them in. See the example below.
     </td>
+  </tr><tr>
     <td>
       salt
     </td>
     <td>
       The salt to use when hashing values. Uses `Security.salt` by default.
     </td>
+  </tr><tr>
     <td>
       min_length
     </td>
     <td>
       Minimum length of the hash. Set to 6 by default.
     </td>
+  </tr><tr>
     <td>
       alphabet
     </td>
